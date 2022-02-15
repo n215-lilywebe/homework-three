@@ -1,0 +1,39 @@
+.banner{
+    max-width: $banner-footer-width;
+    height:$banner-height;
+    background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)),url(../images/main-header-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -80px auto 0 auto;
+
+    .herotext{
+        text-align:center;
+        padding-top: 162px;
+        color:$site-white;
+
+        h1{
+            font-size: 60px;
+            font-family:ProximaNovaECT;
+        }
+        h3{
+            font-size: 20px;
+            width:714px;
+            margin: 0 auto;
+            font-family:GillSansUB;
+        }
+        a{
+            margin:0 auto;
+            display:block;
+            background-color: $site-blue;
+            height:40px;
+            width:121px;
+            font-size: 15px;
+            padding-top: 10px;
+            text-decoration: none;
+            color:$site-white;
+            margin-top: 48px;
+
+        }
+    }
+}

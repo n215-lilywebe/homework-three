@@ -1,0 +1,33 @@
+.footer{
+    width:100%;
+    height:100px;
+    background-color: #79addc;
+    color:white;
+    .container{
+        justify-content: space-evenly;
+    margin:0 auto;
+    display:flex;
+    width:1280px;
+    text-align:center;
+    padding-top:42px;
+    
+
+    .logo{
+        width:92px;
+        height:42px;
+        margin-top:-20px;
+    }
+    .copyright{
+        font-size: 12px;
+        font-family: GillSansUB;
+    }
+    .socials{
+        display:flex;
+        justify-content: space-evenly;
+        width:110px;
+        font-size: 22px;
+    }
+    }
+
+
+}

@@ -1,0 +1,157 @@
+.form-content{
+    max-width:818px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-bottom:100px;
+    
+
+ 
+
+    input{
+        font-family: GillSansUB;
+        font-size: 18px;
+        color:$site-black;
+        &::placeholder{
+            color:black;
+        }
+    }
+
+
+    .submit{
+        width:813px;
+        height:60px;
+        font-size: 15px;
+        margin: 37px auto 0 auto;
+        background-color: #79addc;
+        color:white;
+        padding-top:20px;
+        padding-bottom:20px;
+        border-radius: 30px;
+        border-color:#79addc;
+        border-style:solid;
+        font-family: GillSansUB;
+    }
+
+    .message{
+        width:818px;
+        height:192px;
+        margin-top: 20px;
+            padding-left:10px;
+            border-color:#79addc;
+            border-style:solid;
+            border-width: 3px;
+            font-family: GillSansUB;
+            &::placeholder{
+                color:black;
+            }
+    }
+
+    .attendees{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        font-family: GillSansUB;
+
+        .adults{
+            display:flex;
+            h2{
+                font-size: 18px;
+                color:$site-black;
+                padding-top: 20px;
+            }
+
+            select{
+                margin-left:56px;
+                border-color:#79addc;
+            border-style:solid;
+            border-width: 3px;
+            width:103px;
+            height:58px;
+            color:black;
+            font-family: GillSansUB;
+            }
+        }
+
+        .children{
+            display:flex;
+            h2{
+                font-size: 18px;
+                color:$site-black;
+                padding-top: 20px;
+            }
+            select{
+                margin-left:56px;
+                border-color:#79addc;
+            border-style:solid;
+            border-width: 3px;
+            width:103px;
+            height:58px;
+            font-family: GillSansUB;
+            }
+        }
+        .rooms{
+            display:flex;
+            h2{
+                font-family: GillSansUB;
+                font-size: 18px;
+                color:$site-black;
+                padding-top: 20px;
+
+            }
+            select{
+                margin-left:56px;
+                border-color:#79addc;
+            border-style:solid;
+            border-width: 3px;
+            width:103px;
+            height:58px;
+            font-family: GillSansUB;
+            }
+        }
+    }
+
+    .formtitle{
+        font-size: 60px;
+        padding-top:50px;
+        color:black;
+        font-family: ProximaNovaECT;
+    }
+
+
+
+    .top-boxes{
+        margin-top:20px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2{
+            font-family: GillSansUB;
+            font-size: 18px;
+            color:$site-black;
+            padding-top: 20px;
+            width:120px;
+        }
+        
+
+        .check{
+            width:698px;
+
+        }
+        .long-boxes{
+            width:453px;
+        }
+
+        .icon{
+            margin-left:-30px;
+        }
+        input{
+            width:344px;
+            height:58px;
+            padding-left:10px;
+            border-color:#79addc;
+            border-style:solid;
+            border-width: 3px;
+        }
+    }
+}

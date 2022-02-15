@@ -1,0 +1,135 @@
+.promotours{
+    display:flex;
+    width: 810px;
+    height:305px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top:-37px;
+    font-family: ProximaNovaECT;
+
+    .container-one{
+     
+        width:232px;
+            height:305px;
+            background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)),url(../images/asset-5@2x.png);
+            background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    .textcontainer{
+        text-align:center;
+        height:187px;
+        color:$site-white;
+        padding-top: 37px;
+
+        h2{
+            font-size: 60px;
+        }
+
+        p{
+            font-size: 30px;
+        }
+
+        a{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            display:inline-block;
+            width:133px;
+            height:40px;
+            padding-top:10px;
+            background-color: $site-blue;
+            color:$site-white;
+            text-decoration: none;
+            margin-top:57px;
+            border-style:solid;
+            border-color:$site-blue;
+            border-radius: 15px;
+        }
+
+    }
+    }
+
+    .container-two{
+     
+        width:232px;
+            height:305px;
+            background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)),url(../images/asset-11@2x.png);
+            background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+        
+    .textcontainer{
+        text-align:center;
+        height:187px;
+        color:$site-white;
+        padding-top: 37px;
+
+        h2{
+            font-size: 60px;
+        }
+
+        p{
+            font-size: 30px;
+        }
+
+        a{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            display:inline-block;
+            width:133px;
+            height:40px;
+            padding-top:10px;
+            background-color: $site-blue;
+            color:$site-white;
+            text-decoration: none;
+            margin-top:57px;
+            border-style:solid;
+            border-color:$site-blue;
+            border-radius: 15px;
+        }
+
+    } 
+    }
+
+    .container-three{
+     
+        width:232px;
+            height:305px;
+            background-image: linear-gradient(rgba($site-black, .5), rgba($site-black, .5)),url(../images/asset-14@2x.png);
+            background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+        .textcontainer{
+            text-align:center;
+            height:187px;
+            color:$site-white;
+            padding-top: 37px;
+
+            h2{
+                font-size: 60px;
+            }
+
+            p{
+                font-size: 30px;
+            }
+
+            a{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
+                display:inline-block;
+                width:133px;
+                height:40px;
+                padding-top:10px;
+                background-color: $site-blue;
+                color:$site-white;
+                text-decoration: none;
+                margin-top:57px;
+                border-style:solid;
+                border-color:$site-blue;
+                border-radius: 15px;
+            }
+
+        }
+    }
+}
